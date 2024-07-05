@@ -1,0 +1,77 @@
+The final story would revolve around exploring restaurants' attributes. Starting with the geographical distribution, moving onto the distribution of cuisine types, displaying the relationship between MinPrice and MaxPrice, and finally, showcasing the frequency of awards received by restaurants.
+
+
+
+
+
+
+I can provide guidance on how to visualize the dataset in Tableau to create four different types of graphs that tell a story and highlight trends and patterns. Since I can't directly create Tableau visualizations here, I'll guide you through the process.
+
+Average Price Range by Cuisine Category (Bar Chart):
+
+Create a bar chart where Cuisine is on the x-axis and the average of MinPrice and MaxPrice (perhaps combined as an average) is on the y-axis.
+Use color to differentiate between MinPrice and MaxPrice.
+Analyze which cuisines tend to have higher or lower average price ranges.
+Geospatial Distribution of Michelin-starred Restaurants (Map):
+
+Use Longitude and Latitude to plot the location of restaurants on a map.
+Color code or symbolize restaurants based on their Michelin star ratings (e.g., 1, 2, or 3 stars).
+Observe if there's a concentration of highly rated restaurants in specific regions.
+Cuisine Distribution (Pie Chart or Tree Map):
+
+Create a pie chart or tree map showcasing the distribution of different cuisines.
+Visualize the proportion of each cuisine category in the dataset.
+Identify the most prevalent cuisines among the listed restaurants.
+Average Price Range by Location (Line Chart or Scatter Plot):
+
+Plot Location on the x-axis and the average price range (MinPrice and MaxPrice) on the y-axis.
+Use a line chart or scatter plot to represent the relationship.
+Explore if there's a correlation between restaurant location and average price range.
+Here's an overview of how you can approach creating these visualizations in Tableau:
+
+Import Data:
+
+Load your dataset into Tableau.
+Create Worksheets:
+
+For each graph, create a new worksheet in Tableau.
+Select appropriate columns for x and y axes, and apply necessary filters or calculations.
+Choose Chart Types:
+
+Choose the chart types (bar chart, map, pie chart, line chart, scatter plot) based on the visualization requirements mentioned above.
+Customize Visualizations:
+
+Add colors, labels, legends, and tooltips to enhance the visualizations.
+Use Tableau's features to highlight key insights and trends.
+Assemble Dashboard:
+
+Combine individual worksheets into a dashboard to present a cohesive story.
+Arrange the visualizations logically to tell a clear narrative about the dataset.
+Each visualization should contribute to understanding different aspects of the dataset, such as price distribution, geographical presence, cuisine variety, and their relationships.
+
+You can refer to Tableau's documentation or online tutorials for detailed instructions on creating these specific types of visualizations using your dataset. If you encounter specific challenges or need further assistance with a particular visualization, feel free to ask!
+
+
+
+
+
+
+
+
+
+
+
+
+he graph shows the average price of cuisines by minimum and maximum prices. It is clear that the most expensive cuisines tend to have a high minimum price, while the least expensive cuisines tend to have a low minimum price. However, there is also a significant amount of variation in maximum prices within each cuisine.
+
+For example, American cuisine has a wide range of maximum prices, from $10K to $100K. This is because American cuisine includes a wide variety of restaurants, from fast food to fine dining. On the other hand, cuisines such as Basque and Beef Specialities have a much narrower range of maximum prices, because they tend to be associated with more specialized types of restaurants.
+
+Another interesting pattern is that many cuisines have a cluster of data points around the $20K to $30K price range. This suggests that this is a popular price point for many diners.
+
+Here are some specific insights and hidden patterns from the graph:
+
+The most expensive cuisines are Alpine, Modern Cuisine, and French. These cuisines are typically associated with high-quality ingredients and fine dining experiences.
+The least expensive cuisines are Barbecue, Basque, and Beef Specialities. These cuisines are typically associated with more casual dining experiences and less expensive ingredients.
+There is a significant amount of variation in maximum prices within each cuisine. This is because each cuisine includes a wide variety of restaurants, from fast food to fine dining.
+Many cuisines have a cluster of data points around the $20K to $30K price range. This suggests that this is a popular price point for many diners.
+Overall, the graph provides a useful overview of the average prices of different cuisines. It can be used by diners to help them choose a cuisine that fits their budget and preferences.
